@@ -3,10 +3,12 @@ package org.example.kimyeonghanbasic.service;
 import org.example.kimyeonghanbasic.domain.Member;
 import org.example.kimyeonghanbasic.repository.MemberRepository;
 import org.example.kimyeonghanbasic.repository.MemoryMemberRepository;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
 
+@Service
 public class MemberService {
 
 //    private final MemberRepository memberRepository = new MemoryMemberRepository();
