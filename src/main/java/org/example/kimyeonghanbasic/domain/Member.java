@@ -6,7 +6,7 @@ public class Member {
 
     private String name;
 
-    private Long getId(){
+    public Long getId(){
         return id;
     }
 
