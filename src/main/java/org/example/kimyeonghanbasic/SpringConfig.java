@@ -4,7 +4,9 @@ import org.example.kimyeonghanbasic.repository.MemberRepository;
 import org.example.kimyeonghanbasic.repository.MemoryMemberRepository;
 import org.example.kimyeonghanbasic.service.MemberService;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
 
+@Configuration
 public class SpringConfig {
 
     @Bean
