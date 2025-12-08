@@ -20,5 +20,4 @@ public class HelloController {
         return "hello-template";
     }
 
-
 }
