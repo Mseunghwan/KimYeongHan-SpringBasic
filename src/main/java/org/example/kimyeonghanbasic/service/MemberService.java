@@ -9,9 +9,16 @@ import java.util.Optional;
 
 public class MemberService {
 
-    private final MemberRepository memberRepository = new MemoryMemberRepository();
+//    private final MemberRepository memberRepository = new MemoryMemberRepository();
+    private final MemberRepository memberRepository;
 
-//    회원가입
+    // DI 측면에서 생성자 주입 방식을 사용. 유지보수성에서 좋다.
+    public MemberService(MemberRepository memberRepository) {
+        this.memberRepository = memberRepository;
+    }
+
+
+    //    회원가입
     public Long join(Member member){
         validateDuplicateMember(member);
         memberRepository.save(member);
