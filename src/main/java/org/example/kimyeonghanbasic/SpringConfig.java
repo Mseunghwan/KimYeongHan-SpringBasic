@@ -29,6 +29,7 @@ public class SpringConfig {
     @Bean
     public MemberRepository memberRepository() {
 //        return new MemoryMemberRepository();
+//        return new JdbcMemberRepository(dataSource);
         return new JdbcMemberRepository(dataSource);
         // 생성자 주입의 장점, JdbcMemberRepository 구현체 만들어서, Config 파일만 고쳐도 O
         // 다형성을 활용한다, 즉 인터페이스를 두고 구현체를 갈아낀다
