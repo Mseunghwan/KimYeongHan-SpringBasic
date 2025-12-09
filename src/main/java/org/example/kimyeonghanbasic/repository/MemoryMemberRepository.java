@@ -1,7 +1,6 @@
 package org.example.kimyeonghanbasic.repository;
 
 import org.example.kimyeonghanbasic.domain.Member;
-import org.springframework.stereotype.Repository;
 
 import java.util.*;
 
