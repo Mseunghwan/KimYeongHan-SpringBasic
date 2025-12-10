@@ -1,5 +1,22 @@
-Spring 한때 그래도 열심히 했는데 .. 
-SSAFY 1학기를 하며 놓으니 간단한 CRUD도 읽기 힘들길래
 3일 동안 보게 된 김영한 입문강의 간단 정리
 
-https://www.youtube.com/watch?v=qyGjLVQ0Hog&list=PLumVmq_uRGHgBrimIp2-7MCnoPUskVMnd&index=1
+- Spring -
+스프링 입문 - 코드로 배우는 스프링 부트, 웹 MVC, DB 접근 기술
+스프링 핵심 원리 - 기본편
+
+- HTTP -
+모든 개발자를 위한 HTTP 웹 기본 지식
+
+- Spring -
+스프링 MVC 1편 - 백엔드 웹 개발 핵심 기술
+스프링 MVC 2편 - 백엔드 웹 개발 활용 기술
+
+- DB 기초 -
+스프링 DB 1편 - 데이터 접근 핵심 원리
+스프링 DB 2편 - 데이터 접근 활용 기술
+
+- JPA 이론 및 활용 -
+실전! 스프링 부트와 JPA 활용1 - 웹 애플리케이션 개발
+실전! 스프링 부트와 JPA 활용2 - API 개발과 성능 최적화
+
+2학기 시작 전 까지 위 강의 순으로 학습 및 블로그 정리 예정
